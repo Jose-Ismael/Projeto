@@ -1,0 +1,13 @@
+ /* configuração padrão do navegador */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(./Img/Fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

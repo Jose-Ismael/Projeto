@@ -1,0 +1,171 @@
+ /* configuração padrão do navegador */
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*configuração do cebçalho */
+header{
+    font-family:  "Gruppo", sans-serif; /* font-family - tipo da fonte */
+    width: 100%;                   /* width: - largura */
+    background-color: #DDA0DD;   /* background-color: - cor co cabeçalho */
+    display: flex;                 /* display: flex; - alinhar na mesma linha */
+    justify-content: space-around; /* justify-content: space-(between ou around)- organizar a margem */
+    align-items: center;           /* align-items: - alinhamento ao centro */
+    padding: 5px 0;
+}
+
+/*Ajustar o Tamanho da fonte - Naisl Designer*/
+h1{
+    font-size: 50px;               /* font-size - tamanho da fonte */
+}
+
+/*Ajustar o tamanho da logo da imagem - Naisl Designer*/
+.logo-imagem {
+   width: 100px;                   /* width: - largura */
+   height: 80px;                   /* heigth: - altura */
+   border-radius: 40px;            /* border-radius: - borda */
+   padding: 0px;
+}
+
+/*Ajustar o Tamanho da imagem da logo - Naisl Designer*/
+img {
+    width: 130px;                  /* width: - largura */
+    height: 80px;                  /* heigth: - altura */
+    border-radius: 30px;           /* border-radius - borda */
+    border: 2px solid white;     /* border: solid - espessura da borda + cor */
+}
+
+/*Ajustar o alinhamento do texto e a imagem da logo*/
+.container-logo{
+    display: flex;                 /* display: flex; - alinhar na mesma linha */
+    align-items: center;           /* align-items: - alinhamento ao centro */
+}
+
+/*Ajustar a margen e cor do texto da logo no cabeçalho*/
+.logo-texto{
+    margin-left: 50px;             /* margin-left; - margem a esquerda */
+    color: #363636;              /* margin-rigth; - margem a direita */
+}
+
+/*Ajustar alinhamento e margem das informações de navegação das Li */
+.menu li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/*Ajustar fonte, cor, borda, das li's "a" */
+.menu li a{
+    font-size: 20px;               /* font-size - tamanho da fonte */
+    text-decoration: none;
+    color: #363636;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+/*Adicionar "houver" pra destacar e dar um efeito no textou ao passar o mousa nas li's */
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+body{
+    color: white;
+    background-image: url(./Img/Fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .center - é a classe criada para centralizar a imagem */
+.center {
+    text-align: center;
+    padding: 20px;
+}
+
+/* .center img - Ajustar largura, altura arredondamento e largura da borda da imagem do perfil*/
+.center img {
+    width: 260px;
+    height: 260px;
+    border-radius: 30%;
+    border: 4px solid white;
+}
+
+/* .color - é a classe criada para mudar a cor da class"center" do <h1>Mille Ramos</h1> */
+.color {
+    color: #bbe42b;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/*.center h1 - para alterar o tipo da fonte do nome do perfil "Mille Ramos"*/
+.center h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*.alinhar - para ajustar a margem de toda a <main> "*/
+.alinhar {
+    margin-left: 50px;
+}
+
+/*.alinhar - section - para ampliar as margens das seções dentro de <main></main>"*/
+.alinhar section {
+    padding: 5px;
+}
+
+/*.alinhar p - para ampliar as margens entre os textos e as seções "*/
+.alinhar p {
+    padding: 10px 0px;
+}
+
+/*classe .color2 - para mudar a cor dos h3 dentros das seções "*/
+.color2 h3 {
+    color: #bbe42b;
+}
+.container{
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+/* Footer img - ajustar imagem do rodapé */
+footer img {
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+    border: 80px;
+}
+
+/* Footer - alinhar e centralizar */
+footer {
+    display: flex;                 /* display: flex; - alinhar na mesma linha */
+    justify-content: center;       /* justify-content: center - centralizar */
+}
+
+/* Footer - aumentar a mergem dos footer (a) e dexair centraliza com o texto e remover a sublinhação<p>*/
+footer a {
+    margin: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Footer p - aumentar a mergem e dexair a cor do texto branco <p>*/
+footer p {
+    color: white;
+}
+
+/* Footer p - Adicionar houver pra destacar e dar um efeito no textou ao passar o mousa <p>*/
+footer p:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 40px;
+}
+
+/* Footer p - Adicionar houver pra destacar e dar um efeito no textou ao passar o mousa <p>*/
+footer a img:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 40px;
+}
+
+
+
+

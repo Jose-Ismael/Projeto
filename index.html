@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!--Todo o site fica dentro de html-->
+<!--lang é a Linguagem da pagina-->
+<html lang="pt-br">
+
+<!--head fica as configurações de todo o site-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--title é o Titulo da Pagina-->
+    <title>Nails Designer</title>
+    
+    <!--Estilizar a class container da tag section dentro de footer (rotapé) -->
+    <style type="text/css">
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            width: 90%;
+            margin: 0 auto;
+        }
+    </style>
+
+    <!--Abaixo segue a tag para lincar a pasta style.css com o html-->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<!--Body fica toda a parte visual do site-->
+<body>
+    <!--Tag Header é o cabeçalho do site-->
+    <header>
+        <!-- menu -->
+        <div class="container-logo">
+            <div class="logo-imagem"><img src="./Img/designer.jpg" alt=""></div>
+            <div class="logo-texto">
+                <h1>NAILS DESIGNER</h1>
+            </div>
+        </div> <!-- Container-Logo-->
+        <div class="menu">
+            <!--lista desordenada <ul></ul>-->
+            <UL>
+                <!--Lista dos Itens de um elemento HTM <li></li>-->
+                <LI><a href="index.html">Sobre</a></LI>
+                <LI><a href="Serviços.html">Serviços</a></LI>
+                <LI><a href="Agendamento.html">Agendamento</a></LI>
+            </UL> 
+        </div>
+    </header>
+    
+    <div class="center">
+        <img src="./Img/perfil.jpeg" alt="">
+        <div class="color">
+            <h1>Mille Ramos</h1>
+            <h2>Especialista em Estética de Designer</h2>
+        </div>
+    </div>
+
+    <div class="alinhar">
+        <!--Tag main é o conteudo principal-->
+        <main>
+            <div class="color2">
+                <!--Tag section é a(s) sessões da página-->
+                <section>
+                    <h3>Sobre mim</h3>
+                    <p>
+                        Olá, sou Jamille Ramos! sou Especialista em Estética de Designer, atuo nessa área a mais de 5 anos, prezando pela estética das unhas como um todo e utilizando técnicas como alongamento de unhas para dar um toque de beleza extra às mãos das clientes. Tenho paixão por moda, arte e adoro trabalhar com detalhes precisos para criar designs artísticos e personalizados, e que atenda o estilo de cada cliente.
+                    </p>
+                </section>
+                <section>
+                    <h3>Formação</h3>
+                    <p>
+                        Olá, sou Jamille Ramos! sou Especialista em Estética de Designer, atuo nessa área a mais de 5 anos, prezando pela estética das unhas como um todo e utilizando técnicas como alongamento de unhas para dar um toque de beleza extra às mãos das clientes. Tenho paixão por moda, arte e adoro trabalhar com detalhes precisos para criar designs artísticos e personalizados, e que atenda o estilo de cada cliente.
+                    </p>
+                </section>
+                <section>
+                    <h3>Cursos</h3>
+                    <p>
+                        Olá, sou Jamille Ramos! sou Especialista em Estética de Designer, atuo nessa área a mais de 5 anos, prezando pela estética das unhas como um todo e utilizando técnicas como alongamento de unhas para dar um toque de beleza extra às mãos das clientes. Tenho paixão por moda, arte e adoro trabalhar com detalhes precisos para criar designs artísticos e personalizados, e que atenda o estilo de cada cliente.
+                    </p>
+                </section>
+            </div>
+        </main>
+
+        <!--Tag footer - é o Rodapé da página-->
+        <footer>
+            <section class="container">
+                <!--adicionar a tag (a) que é referente a links, com a referência (href) e adicionar o endereço desejado-->
+                <a href="https://www.instagram.com/milla_ramos123?igsh=eHMzdTZhemxucmtu" target="_blank" rel="noopener noreferrer">
+                    <img src="./Img/instagram.svg"></img>
+                    <p>Instagram</p>
+                </a>
+                    <a href="https://api.whatsapp.com/send?phone=5588999423174&text=Ol%C3%A1,%20Tudo%20bem?" target="_blank" rel="noopener noreferrer">
+                        <img src="./Img/whatsapp.svg"></img>
+                        <p>WhatsApp</p>
+                    </a>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>

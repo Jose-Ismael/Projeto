@@ -1,0 +1,85 @@
+ /* configuração padrão do navegador */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    background-image: url(./Img/Fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+ /* configuração da caixa da tabela de preços */
+ /* 1º Inserir imagem de fundo */
+ /* 2º Inserir o tipo da fonte */
+ /* 3º Inserir a borda, arredondamento da borda */
+ /* 4º Inserir a largura, altura, margem e o preencimneto interno */
+.table{
+    background-image: url(./Img/fototabela..jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* configuração da da tabela de preços */
+table{
+    margin: auto;
+    height: auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+/* configur centralização do titulo da caixa da tabela */
+h1 {
+    text-align: center;
+    border-radius: 30px;
+}
+
+/* Ajustar margens, altura, largura, borda das imagens de Designer */
+img{
+    margin: 5px;
+    width: 130px;
+    height: 120px;
+    border-radius: 30px;
+    display: flex;
+    padding: 6px;
+}
+.div1{
+    margin-top: 13px;
+}
+
+.div2{
+    margin-top: 13px;
+}
+
+/*Ajustar o Tamanho da fonte - Formas de pagamento*/
+.div3 h1{
+    font-size: 50px;
+}
+
+.div3{
+    border-color: blue;
+    background-color: blue;
+    margin: auto;
+}
+
+/*Ajustar largura, altura, bordas e cor de fundo da logo PIX*/
+
+.div4{
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    margin-left: 125px;
+}
+
+
+
+
+
+
